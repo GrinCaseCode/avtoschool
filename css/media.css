@@ -55,6 +55,14 @@
 .billbord__image {
     margin-left: -399px;
 }
+.program-block__image {
+    padding-left: 0;
+}
+.special-block {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -183,6 +191,38 @@
 .image-shashki {
     left: -74px;
     }
+    .program-block__image {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+    .program-block {
+        padding-left: 40px;
+        padding-bottom: 30px;
+    }
+    .row_include {
+        justify-content: center;
+    }
+    .program_right {
+        padding-top: 30px;
+    }
+    .row_docs > div:nth-child(2) {
+        text-align: right;
+    }
+    .row_docs > div:nth-child(2) .item-doc::after {
+    right: 100%;
+    top: 100%;
+    left: auto;
+    margin-right: 54px;
+    margin-top: 15px;
+}
+    .row_docs > div:nth-child(3) {
+        text-align: center;
+    }
+    .row_docs > div:last-child .item-doc::before {
+    width: 113px;
+    height: 74px;
+    right: 17px;
+}
 }
 
 
@@ -399,6 +439,62 @@
 .image-shashki {
    display: none;
     }
+    .program-block__title {
+    font-size: 25px;
+    line-height: 37px;
+}
+.program-block__name {
+    font-size: 27px;
+    line-height: 30px;
+    margin-left: -20px;
+    }
+    .program-block__descr {
+    font-size: 21px;
+    line-height: 27px;
+}
+.program-block__image img {
+    max-width: 182px;
+    }
+    .program-block__age {
+    font-size: 19px;
+    margin-left: 10px;
+}
+.program-block__age span {
+    font-size: 34px;
+}
+.program-block__letter {
+    font-size: 87px;
+}
+.row_special > div {
+    margin-bottom: 30px;
+}
+.program_right {
+    padding-top: 0;
+}
+.row_docs,
+.row_docs > div:nth-child(2) {
+    text-align: center;
+}
+ .item-doc::after,
+.row_docs > div:nth-child(2) .item-doc::after {
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+        top: 100%;
+    margin-top: 15px;
+}
+.docs__bottom-btn .btn-main {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.docs {
+    padding-bottom: 50px;
+}
+.docs .title-section {
+    padding-bottom: 30px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -554,6 +650,45 @@
 }
 .title-insta {
 	font-size: 16px;
+}
+
+/*new changes*/
+.program-block__title {
+    font-size: 18px;
+    line-height: 31px;
+}
+.program-block__name {
+    font-size: 21px;
+    line-height: 22px;
+    margin-left: -16px;
+}
+.program-block__descr {
+    font-size: 18px;
+    line-height: 21px;
+}
+.program-block__image {
+    flex-wrap: wrap;
+}
+.program-block__age {
+    margin: 0;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.program-block__letter {
+    font-size: 80px;
+}
+.program-block__image img {
+    max-width: 160px;
+}
+.program-block__category {
+    font-size: 10px;
+}
+.program__price {
+    font-size: 31px;
+    }
+    .docs__bottom-btn .btn-main {
+    font-size: 13px;
+    line-height: 19px;
 }
 }
 

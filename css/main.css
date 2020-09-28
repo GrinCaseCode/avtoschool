@@ -1546,3 +1546,310 @@ color: #fff;
 	bottom: -62px;
 	position: absolute;
 }
+
+/*program*/
+.program {
+	padding-bottom: 46px;
+}
+.program-block {
+	padding-top: 32px;
+	padding-left: 60px;
+	padding-bottom: 15px;
+	border-radius: 6px;
+background-color: #edf0f5;
+}
+.program-block__title {
+	font-size: 30px;
+line-height: 42px;
+font-family: "Montserrat-Bold";
+text-transform: uppercase;
+}
+.program-block__name {
+	color: #333a44;
+font-size: 36px;
+line-height: 34px;
+margin-left: -30px;
+margin-bottom: 5px;
+font-family: 'Montserrat Black';
+letter-spacing: 1.8px;
+}
+.program-block__descr {
+	font-size: 24px;
+line-height: 34px;
+font-family: "RobotoMedium";
+}
+.program-block__category {
+	color: #333a44;
+font-size: 13px;
+line-height: 34px;
+text-transform: uppercase;
+margin-right: -20px;
+font-family: "RobotoBold";
+transform: rotate(-90deg);
+}
+.program-block__image {
+	padding-left: 30px;
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+}
+.program-block__image img {
+	max-width: 208px;
+	height: auto;
+	display: block;
+}
+.program-block__letter {
+	color: #ffa000;
+font-size: 100px;
+line-height: 52px;
+margin-right: -22px;
+position: relative;
+font-family: 'Montserrat Black';
+}
+.program-block__age {
+	font-size: 24px;
+	margin-left: 20px;
+		font-family: "Montserrat-Bold";
+}
+.program-block__age span {
+color: #ffa000;
+font-size: 40px;
+}
+.row_include > div {
+	margin-bottom: 28px;
+}
+.include-block {
+	padding: 22px;
+	padding-right: 9px;
+	padding-bottom: 13px;
+	min-height: 100%;
+	border-radius: 8px;
+	line-height: 21px;
+background-color: #edf0f5;
+transition: all 0.3s;
+}
+.include-block:hover {
+	    box-shadow: 0 5px 15px rgba(35, 48, 71, 0.2);
+}
+.include-block__title {
+	font-size: 18px;
+	line-height: 24px;
+	padding-left: 22px;
+position: relative;
+margin-bottom: 20px;
+text-transform: uppercase;
+font-family: 'Montserrat Black';
+letter-spacing: 0.9px;
+}
+.include-block__title::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 8px;
+height: 8px;
+background-color: #ffa000;
+top: 8px;
+left: 0;
+border-radius: 50%;
+}
+.include-block li {
+	margin-bottom: 15px;
+	padding-left: 12px;
+	position: relative;
+}
+.include-block li:last-child {
+	margin-bottom: 0;
+}
+.include-block li::before {
+	position: absolute;
+	display: block;
+	content: "•";
+	top: 1px;
+	left: 0;
+}
+.checkbox_main {
+	color: #000000;
+font-size: 14px;
+line-height: 21px;
+}
+.checkbox_main label span:before {
+	border-color: #ccc;
+	background-color: #fff;
+}
+.checkbox_main label span:before,
+.checkbox_main label span:after {
+	top: 5px;
+}
+.program .title-section {
+	margin-top: 20px;
+	margin-bottom: 15px;
+}
+.include-block_service .include-block__title::before {
+	background-color: #23baf9;
+}
+.include-block_addition .include-block__title::before {
+	background-color: #85c81b;
+}
+.special-block {
+	min-height: 100%;
+	padding: 0 24px;
+	padding-bottom: 18px;
+	box-shadow: 0 10px 20px rgba(35, 48, 71, 0.2);
+border-radius: 8px;
+background-color: #ffffff;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+display: flex;
+flex-direction: column;
+font-family: "RobotoMedium";
+transition: all 0.3s;
+}
+.special-block:hover {
+	box-shadow: 0 10px 20px rgba(35, 48, 71, 0.4);
+}
+.special-block p {
+	margin: auto 0;
+}
+.special-block__image {
+	height: 93px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.special-block__image img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+.row_special > div {
+	padding: 0 10px;
+}
+.row_special {
+	margin: 0 -10px;
+}
+.program__price {
+	font-size: 36px;
+line-height: 24px;
+text-align: center;
+font-family: "Montserrat-Bold";
+}
+.program_right {
+	text-align: center;
+}
+.program_right .btn-main {
+	margin-top: 24px;
+	font-size: 15px;
+	box-shadow: 0 15px 30px rgba(255, 160, 0, 0.4);
+	line-height: 20px;
+	height: 68px;
+	max-width: 310px;
+	width: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-image: linear-gradient(-16deg, #ffcc00 0%, #ffa000 100%);
+}
+.docs {
+	padding-top: 40px;
+	padding-bottom: 85px;
+	background-color: #edf0f5;
+}
+.docs .title-section {
+	padding-bottom: 53px;
+}
+.docs .title-section {
+	text-align: center;
+}
+.item-doc {
+	padding: 25px;
+	min-height: 100%;
+	max-width: 264px;
+	display: inline-block;
+	text-align: left;
+	box-shadow: 0 10px 20px rgba(35, 48, 71, 0.2);
+border-radius: 8px;
+position: relative;
+background-color: #ffffff;
+transition: all 0.3s;
+}
+.item-doc:hover {
+		box-shadow: 0 10px 20px rgba(35, 48, 71, 0.4);
+}
+.item-doc::after {
+	position: absolute;
+	display: block;
+	content: "+";
+	color: #ffa000;
+font-size: 68px;
+font-weight: 400;
+line-height: 34px;
+height: 34px;
+text-transform: uppercase;
+letter-spacing: 0.89px;
+left: 100%;
+top: 0;
+bottom: 0;
+margin: auto;
+margin-left: 68px;
+font-family: 'Montserrat Black';
+}
+.row_docs > div:last-child .item-doc::after {
+	display: none;
+}
+.row_docs > div:last-child .item-doc::before {
+	position: absolute;
+	display: block;
+	content: " ";
+	width: 223px;
+	height: 157px;
+	right: 97px;
+	top: 100%;
+	margin-top: -24px;
+	background-image: url(../img/arrow_docs.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	pointer-events: none;
+}
+.item-doc__number {
+	color: #edf0f5;
+font-size: 68px;
+height: 107px;
+margin-bottom: 5px;
+text-transform: uppercase;
+letter-spacing: 0.89px;
+font-family: 'Montserrat Black';
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+.item-doc__number img {
+	max-width: 117px;
+	max-height: 107px;
+}
+.item-doc__name {
+	font-size: 18px;
+	font-family: "RobotoMedium";
+}
+.row_docs > div {
+	margin-bottom: 70px;
+}
+.row_docs > div:nth-child(2) {
+	text-align: center;
+}
+.row_docs > div:nth-child(3) {
+	text-align: right;
+}
+.docs__bottom-btn {
+	text-align: center;
+}
+.docs__bottom-btn .btn-main {
+	font-size: 15px;
+line-height: 24px;
+max-width: 478px;
+	height: 90px;
+	box-shadow: 0 15px 30px rgba(255, 160, 0, 0.4);
+}
+.reviews_page {
+	background-color: #fff;
+}
