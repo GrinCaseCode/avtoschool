@@ -28,6 +28,7 @@ body {
 	font-size: 14px;
 	color: #000;
 	overflow-x: hidden;
+	background-color: #fff;
 	margin: 0;
 }
 button {
@@ -291,10 +292,11 @@ background-image: linear-gradient(-16deg, #ffc107 0%, #ffa000 100%);
 	position: relative;
 	z-index: 1;
 }
+/*new change*/
 .billbord__image {
 	left: 100%;
 	margin-left: -545px;
-	top: -140px;
+	top: -9px;
 	position: absolute;
 	z-index: -1;
 }
@@ -1529,3 +1531,18 @@ color: #fff;
 	transform: rotate(-45deg);
 }
 /*End Sandwich*/
+
+/*new change*/
+.team,
+.presents {
+	background-color: #edf0f5;
+	background-image: none;
+}
+.presents .container {
+	position: relative;
+}
+.image-shashki {
+	left: 0;
+	bottom: -62px;
+	position: absolute;
+}

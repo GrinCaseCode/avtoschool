@@ -50,6 +50,11 @@
 .checkbox-wrap .checkbox {
 	white-space: normal;
 }
+
+/*new change*/
+.billbord__image {
+    margin-left: -399px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -170,6 +175,14 @@
 .footer .logo img {
     max-width: 262px;
 }
+
+/*new change*/
+.billbord__image {
+    margin-left: -304px;
+}
+.image-shashki {
+    left: -74px;
+    }
 }
 
 
@@ -380,6 +393,12 @@
 .menu li:last-child a {
 	border: none;
 }
+
+/*new change*/
+
+.image-shashki {
+   display: none;
+    }
 }
 
 /* Extra Small Devices, Phones */

@@ -78,6 +78,23 @@ $(document).ready(function() {
 		slidesToScroll: 1,
 	});
 
+	/*
+
+	$('.row_tarifs').slick({
+		arrows: false,
+		dots: false,
+		infinite: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+	mobileFirst: true,	
+  responsive: [
+    {
+      breakpoint: 992,
+      settings: 'unslick'
+    }
+  ]
+});
+*/
 	$('.tabs-main li a').click(function(event) {
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
