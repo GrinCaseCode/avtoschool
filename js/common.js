@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-/*animate*/
- new WOW().init();
+	/*animate*/
+	new WOW().init();
 
 	//плавный скролл
 	$(".menu li a").mPageScroll2id({
@@ -18,22 +18,25 @@ $(document).ready(function() {
 			$(".nav").slideUp(200);
 		}
 		$(".nav a").click(function() {
-		$(".nav").slideUp(200);
-		$(".sandwich").removeClass("active");
-	});
+			$(".nav").slideUp(200);
+			$(".sandwich").removeClass("active");
+		});
 	});
 
 	
+	$("#fl_inp").change(function(){
+		var filename = $(this).val().replace(/.*\\/, "");
+		$("#fl_nm").html(filename);
+	});
 
-
- /*высота блока по экрану*/
-    function heightDetect() {
-      $('.nav').css("height", $(window).height() -$(".header").height() + 40);
-    };
-    heightDetect();
-    $(window).resize(function() {
-      heightDetect();
-    });
+	/*высота блока по экрану*/
+	function heightDetect() {
+		$('.nav').css("height", $(window).height() -$(".header").height() + 40);
+	};
+	heightDetect();
+	$(window).resize(function() {
+		heightDetect();
+	});
 	//слайдер
 
 	$('.slider-for').slick({
@@ -95,41 +98,132 @@ $(document).ready(function() {
   ]
 });
 */
-	$('.tabs-main li a').click(function(event) {
-		event.preventDefault();
-		$(this).parent().parent().find("li").removeClass('active');
-		$(this).parent().addClass('active');
-		$(this).parent().parent().siblings(".tab-container").find(".tab-pane").hide();
-		var selectTab = $(this).attr("href");
-		$(selectTab).fadeIn();
-	});
 
-	$(".question__name").click(function(e) {
-		e.preventDefault();
-		$(".question").removeClass("active");
-		$(".question__answer").slideUp(200);
-		if ($(this).siblings(".question__answer").is(":hidden")) {
-			$(this).parent().addClass("active");
-			$(this).siblings(".question__answer").slideDown(200);
+$('.slider-for-car').slick({
+	arrows: true,
+	dots: false,
+	infinite: true,
+	slidesToShow: 1,
+	prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	asNavFor: '.slider-nav-car',
+	slidesToScroll: 1,
+	responsive: [{
+		breakpoint: 768,
+		settings: {
+			arrows: false,
+		} 
+	}
+	]
+});
 
-		} else {
-			$(this).parent().removeClass("active");
-			$(this).siblings(".question__answer").slideUp(200);
 
+$('.slider-nav-car').slick({
+	slidesToShow: 4,
+	arrows: false,
+	slidesToScroll: 1,
+	asNavFor: '.slider-for-car',
+	dots: true,
+	focusOnSelect: true,
+	prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	responsive: [{
+		breakpoint: 768,
+		settings: {
+			slidesToShow:3,
 		}
-	});
 
-	$('.location__text').click(function(event) {
-		event.preventDefault();
-		if ($(".location-list").is(":hidden")) {
-			$(".location-list").slideDown(200);
-		} else {
-			$(".location-list").slideUp(200);
+	}]
+});
+
+$('.slider-team').slick({
+	arrows: true,
+	dots: false,
+	infinite: true,
+	slidesToShow: 3,
+	prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	slidesToScroll: 1,
+	responsive: [{
+		breakpoint: 1200,
+		settings: {
+			slidesToShow:2,
 		}
-	});
 
-	 $(".location-list a").click(function() {
-   $(".location-list").slideUp(200); 
+	},
+	{
+		breakpoint: 992,
+		settings: {
+			slidesToShow:1,
+		}
+
+	},
+	{
+		breakpoint: 481,
+		settings: {
+			slidesToShow:1,
+			arrows: false,
+			dots: true,
+		}
+
+	}
+	]
+});
+
+$('.slider-reviews-social').slick({
+	arrows: true,
+	dots: false,
+	infinite: true,
+	slidesToShow: 1,
+	prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+	nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+	slidesToScroll: 1,
+	responsive: [{
+		breakpoint: 993,
+		settings: {
+			arrows: false,
+			dots: true,
+		}
+
+	}]
+});
+
+
+$('.tabs-main li a').click(function(event) {
+	event.preventDefault();
+	$(this).parent().parent().find("li").removeClass('active');
+	$(this).parent().addClass('active');
+	$(this).parent().parent().siblings(".tab-container").find(".tab-pane").hide();
+	var selectTab = $(this).attr("href");
+	$(selectTab).fadeIn();
+});
+
+$(".question__name").click(function(e) {
+	e.preventDefault();
+	$(".question").removeClass("active");
+	$(".question__answer").slideUp(200);
+	if ($(this).siblings(".question__answer").is(":hidden")) {
+		$(this).parent().addClass("active");
+		$(this).siblings(".question__answer").slideDown(200);
+
+	} else {
+		$(this).parent().removeClass("active");
+		$(this).siblings(".question__answer").slideUp(200);
+
+	}
+});
+
+$('.location__text').click(function(event) {
+	event.preventDefault();
+	if ($(".location-list").is(":hidden")) {
+		$(".location-list").slideDown(200);
+	} else {
+		$(".location-list").slideUp(200);
+	}
+});
+
+$(".location-list a").click(function() {
+	$(".location-list").slideUp(200); 
 });
 
 
