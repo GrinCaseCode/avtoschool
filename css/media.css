@@ -293,22 +293,6 @@
     right: 0px;
 }
 
-/*contacts*/
-.contacts .title-section {
-    margin-bottom: 0;
-}
-.contacts__title:first-of-type {
-    margin-top: 20px;
-}
-.map-wrap .block-form {
-    position: relative;
-    top: 0;
-    left: 0;
-    margin: 0 auto;
-}
-.contacts {
-    padding-bottom: 35px;
-}
 }
 
 
@@ -614,7 +598,37 @@
     line-height: 27px;
 }
 
+/*instructors*/
+.slider-team .slick-prev {
+    left: 15px;
+}
+.slider-team .slick-next {
+    right: 15px;
+}
+.item-about {
+    margin-top: 25px;
+}
+.instructors {
+    padding-bottom: 40px;
+}
+.team_page {
+    padding-top: 40px;
+}
+.slider-reviews-social__item {
+    padding: 0 10px;
+    height: 240px;
+}
 
+/*contacts*/
+.row_contacts strong {
+    margin-top: 15px;
+}
+.contacts__title {
+    margin-top: 20px;
+}
+#map {
+    height: 350px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -897,6 +911,30 @@
 .questions .block-form {
     padding-left: 15px;
     padding-right: 15px;
+}
+
+/*instructors*/
+.item-about p {
+    font-size: 14px;
+    line-height: 22px;
+}
+.slider-team .slick-slide {
+    padding: 0 15px;
+}
+.slider-team {
+    padding-bottom: 15px;
+}
+.link-social {
+    font-size: 15px;
+}
+.link-social i {
+    font-size: 20px;
+    top: 3px;
+    margin-right: 8px;
+}
+.slider-reviews-social__item {
+    padding: 0 10px;
+    height: 145px;
 }
 
 }
