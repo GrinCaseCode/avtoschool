@@ -1432,6 +1432,7 @@ display: none;
 .slider-review {
     max-width: inherit;
 }
+.animated,
 .wow  {
     -o-transition-property: none !important;
         -moz-transition-property: none !important;
