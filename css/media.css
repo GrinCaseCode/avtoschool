@@ -1232,7 +1232,7 @@ display: none;
 .slider-for__item {
     height: 318px;
     max-width: 360px;
-    margin: 0 5px;
+    margin-right: 10px;
 }
 .slider-for {
     padding-bottom: 30px;
