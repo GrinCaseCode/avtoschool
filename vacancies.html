@@ -20,8 +20,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.14" />
-	<link rel="stylesheet" href="css/media.css?ver=1.14" />
+	<link rel="stylesheet" href="css/main.css?ver=1.50" />
+	<link rel="stylesheet" href="css/media.css?ver=1.50" />
 </head>
 <body>
 
@@ -30,11 +30,19 @@
 		<header class="header">
 			<div class="container">
 				<div class="header__wrap">
+					<span class="btn_nav">
+						<span class='sandwich'>
+							<span class='sw-topper'></span>
+							<span class='sw-bottom'></span>
+							<span class='sw-footer'></span>
+						</span>
+					</span>
 					<div class="logo-wrap">
 						<a href="#" class="logo">
 							<img src="img/logo.png" alt="alt">
 						</a>
 						<div class="logo-wrap__descr">Сеть современных автошкол в Симферополе</div>
+						<div class="logo-wrap__mobdescr">Симферополь</div>
 					</div>
 					<div class="header__center">
 						<div class="location-header">
@@ -61,13 +69,7 @@
 						<br>
 						<a href="#" class="btn-main">Записаться в автошколу</a>
 					</div>
-					<span class="btn_nav">
-						<span class='sandwich'>
-							<span class='sw-topper'></span>
-							<span class='sw-bottom'></span>
-							<span class='sw-footer'></span>
-						</span>
-					</span>
+					
 				</div>
 			</div>
 			<div class="nav">
@@ -262,7 +264,7 @@
 		<footer class="footer" id="sect-footer">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-4 col-6">
+					<div class="col-lg-4 col-md-6">
 						<a href="#" class="logo">
 							<img src="img/logo.png" alt="alt">
 						</a>
@@ -277,46 +279,60 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-lg-3 col-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="footer__title">Карта сайта</div>
-						<ul class="nav-footer">
-							<li><a href="#">О компании</a></li>
-							<li><a href="#">Программы обучения</a></li>
-							<li><a href="#">Расписание</a></li>
-							<li><a href="#">Автопарк</a></li>
-							<li><a href="#">Инструкторы</a></li>
-							<li><a href="#">Отзывы</a></li>
-							<li><a href="#">Вакансии</a></li>
-							<li><a href="#">Контакты</a></li>
-							<li><a href="#">Политика конфиденциальности</a></li>
-						</ul>
+						<div class="footer__dropdown">
+							<ul class="nav-footer">
+								<li><a href="#">О компании</a></li>
+								<li><a href="#">Программы обучения</a></li>
+								<li><a href="#">Расписание</a></li>
+								<li><a href="#">Автопарк</a></li>
+								<li><a href="#">Инструкторы</a></li>
+								<li><a href="#">Отзывы</a></li>
+								<li><a href="#">Вакансии</a></li>
+								<li><a href="#">Контакты</a></li>
+								<li><a href="#">Политика конфиденциальности</a></li>
+							</ul>
+						</div>
 					</div>
-					<div class="col-lg-3 col-6">
+					<div class="col-lg-3 col-md-6">
 						<div class="footer__title">Адреса</div>
-						<div class="footer__contact">
-							<p>Симферополь:</p>
-							<p>ул. Киевская, 8 </p>
-							<p>ул. Гагарина, 20 А</p>
-							<p>пр. Победы, 145 </p>
-							<p>ул. Чехова, 14 А</p>
+						<div class="footer__dropdown">
+							<div class="footer__contact">
+								<p>Симферополь:</p>
+								<p>ул. Киевская, 8 </p>
+								<p>ул. Гагарина, 20 А</p>
+								<p>пр. Победы, 145 </p>
+								<p>ул. Чехова, 14 А</p>
+							</div>
 						</div>
 						<div class="footer__title">Автодром</div>
-						<div class="footer__contact">
-							<p>Симферополь:</p>
-							<p>ул. Титова, 8</p>
+						<div class="footer__dropdown">
+							<div class="footer__contact">
+								<p>Симферополь:</p>
+								<p>ул. Титова, 8</p>
+							</div>
 						</div>
 					</div>
-					<div class="col-lg-2 col-6">
-						<div class="footer__title">Контакты</div>
-						<div class="footer__contact">
-							<p>+7 978 992 11 01</p>
-							<p>test@mail.ru.ru</p>
+					<div class="col-lg-2 col-md-6">
+						<div>
+							<div class="footer__title">Контакты</div>
+							<div class="footer__dropdown">
+								<div class="footer__contact">
+									<p>+7 978 992 11 01</p>
+									<p>test@mail.ru.ru</p>
+								</div>
+							</div>
 						</div>
-						<div class="footer__title">Режим работы</div>
-						<div class="footer__contact">
-							<p>Пн-Пт: 10:00-19:30</p>
-							<p>Сб: 10:00-14:00 </p>
-							<p>Вс: выходной</p>
+						<div>
+							<div class="footer__title">Режим работы</div>
+							<div class="footer__dropdown">
+								<div class="footer__contact">
+									<p>Пн-Пт: 10:00-19:30</p>
+									<p>Сб: 10:00-14:00 </p>
+									<p>Вс: выходной</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -362,7 +378,7 @@
 <script src="libs/animate/animate-css.js"></script>
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.14"></script>
+<script src="js/common.js?ver=1.50"></script>
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
 </body>
