@@ -293,6 +293,22 @@
     right: 0px;
 }
 
+/*contacts*/
+.contacts .title-section {
+    margin-bottom: 0;
+}
+.contacts__title:first-of-type {
+    margin-top: 20px;
+}
+.map-wrap .block-form {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+}
+.contacts {
+    padding-bottom: 35px;
+}
 }
 
 
@@ -937,6 +953,19 @@
     height: 145px;
 }
 
+/*contacts*/
+.contacts__title {
+    font-size: 15px;
+    margin-bottom: 11px;
+    padding-left: 6px;
+    }
+    .contacts p {
+    font-size: 13px;
+    line-height: 20px;
+}
+.col_mobpl {
+    padding-left: 0;
+}
 }
 
 
