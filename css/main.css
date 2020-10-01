@@ -2493,3 +2493,69 @@ align-items: center;
 	max-width: 66px;	
 	margin-right: 15px;
 }
+
+/*schedule*/
+.schedule_page {
+	padding-bottom: 55px;
+}
+.class-page {
+	padding-bottom: 50px;
+	background-color: #edf0f5;
+}
+.item-class {
+	padding: 12px;
+	text-align: center;
+	max-width: 556px;
+	margin: 5px 15px;
+	margin-bottom: 25px;
+	box-shadow: 0 6px 15px rgba(35, 48, 71, 0.2);
+border-radius: 8px;
+font-size: 16px;
+font-family: "RobotoMedium";
+line-height: 30px;
+background-color: #ffffff;
+}
+.item-class__image {
+	height: 335px;
+	margin-bottom: 15px;
+}
+.item-class__image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	font-family: 'object-fit: cover;';
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.item-class p a {
+	color: #000;
+}
+.slider-class {
+	margin: 0 -15px;
+}
+.slider-class .slick-arrow {
+	background-color: #fff;
+}
+.class-page .title-section {
+	margin-bottom: 25px;
+}
+.contacts-page .title-section {
+	padding-top: 60px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.contacts-page + .footer {
+	margin-top: 0;
+}
+
+/*new adaptive*/
+.btn_nav .sandwich span {
+	background-color: #fff;
+}
+.logo-wrap__mobdescr {
+	display: none;
+}
+.team .title-section {
+	padding-bottom: 20px;
+}
