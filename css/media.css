@@ -1000,6 +1000,33 @@
 .class-page {
     padding-bottom: 40px;
 }
+
+/*callback*/
+.modal-wrap_callback .block-form {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.title-modal {
+    font-size: 23px;
+    padding-bottom: 5px;
+    }
+    .descr-modal {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.modal-wrap_callback .btn-main {
+    margin-top: 0;
+}
+.modal-wrap .block-form::after {
+    top: 8px;
+    bottom: 8px;
+    left: 8px;
+    right: 8px;
+}
+.modal-wrap .block-form {
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
 
 /*new adaptive*/
