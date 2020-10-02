@@ -1041,7 +1041,24 @@
     padding-right: 20px;
 }
 
-
+/*reviews*/
+.item-about_page p {
+    margin: 0;
+}
+.item-about_page .item-about__number {
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.item-about_page  {
+    max-width: 265px;
+    text-align: center;
+}
+.reviews-social {
+    padding-top: 40px;
+    }
+    .reviews-social .title-section {
+        font-size: 22px;
+    }
 }
 
 /*new adaptive*/

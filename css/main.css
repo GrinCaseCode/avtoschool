@@ -2596,3 +2596,44 @@ p {
 .fancybox-wrap {
 	overflow: visible !important;
 }
+
+/*reviews-page*/
+.item-about_page {
+	max-width: 100%;
+	text-align: left;
+}
+.item-about_page p {
+	margin-top: -30px;
+	font-size: 14px;
+	line-height: 21px;
+	margin-left: 120px;
+}
+.item-about_page .item-about__number {
+	color: #000000;
+	font-size: 28px;
+	margin: 0;
+	line-height: 34px;
+}
+.slider-reviews-page .slider-review__item {
+	height: 256px;
+	margin: 0 15px;
+}
+.slider-reviews-page {
+	padding-bottom: 35px;
+	margin: 0 -15px;
+	margin-top: 70px;
+}
+.slider-reviews-page .btn-view__icon {
+	width: 53px;
+	height: 53px;
+	font-size: 18px;
+}
+.slider-reviews-page .btn-view__text {
+	padding: 9px 18px;
+	padding-left: 26px;
+	font-size: 14px;
+}
+.slider-reviews-page .btn-view {
+	bottom: 22px;
+	left: 40px;
+}
