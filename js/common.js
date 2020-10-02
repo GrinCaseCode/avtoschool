@@ -252,6 +252,30 @@ $(document).ready(function() {
 		]
 	});
 
+	$('.slider-reviews-page').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		slidesToShow: 3,
+		prevArrow: '<div class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i><div/>',
+		nextArrow: '<div class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i><div/>',
+		slidesToScroll: 1,
+		responsive: [{
+			breakpoint: 993,
+			settings: {
+				slidesToShow: 2,
+			}
+		},
+		{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 1,
+			}
+
+		}
+		]
+	});
+
 
 	$('.tabs-main li a').click(function(event) {
 		event.preventDefault();
