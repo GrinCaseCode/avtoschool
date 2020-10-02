@@ -319,6 +319,12 @@
     padding-top: 35px;
     padding-bottom: 25px;
 }
+
+/*reviews*/
+.row_reviews-about {
+    justify-content: center;
+}
+
 }
 
 
@@ -665,7 +671,14 @@
     padding-bottom: 15px;
 }
 
-
+/*reviews*/
+.slider-reviews-page .slider-review__item {
+    margin: 0 auto;
+}
+.slider-reviews-page {
+    margin: 0;
+    margin-top: 30px;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -1027,6 +1040,8 @@
     padding-left: 20px;
     padding-right: 20px;
 }
+
+
 }
 
 /*new adaptive*/
