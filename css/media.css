@@ -89,7 +89,17 @@
     bottom: -40px;
 }
 
-
+/*about*/
+.company-block {
+    padding: 20px 26px;
+    padding-right: 290px;
+    }
+    .company__image img {
+        max-width: 480px;
+    }
+    .company-block__signature img {
+    max-width: 230px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -325,6 +335,22 @@
     justify-content: center;
 }
 
+/*about*/
+.company .title-middle {
+    margin-top: 30px;
+}
+.row_items-advantage .item-advantage {
+    margin-top: 30px;
+}
+.item-about {
+    margin-top: 35px;
+}
+.company__wrap {
+    margin-bottom: 0;
+}
+.company-block__bottom {
+    width: 100%;
+}
 }
 
 
@@ -679,6 +705,37 @@
     margin: 0;
     margin-top: 30px;
 }
+
+/*about*/
+ .company-block {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 0;
+ }
+ .company__image {
+    margin-top: -200px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+ }
+ .company__image img {
+    max-width: 190px;
+}
+.company-block__bottom {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.company-block__name {
+    font-size: 17px;
+}
+.company-block__descr {
+    font-size: 11px;
+    line-height: 18px;
+    padding: 9px 19px;
+    }
+    .company {
+        padding-bottom: 40px;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -1059,8 +1116,40 @@
     .reviews-social .title-section {
         font-size: 22px;
     }
+    /*about*/ 
+    .company__wrap {
+        margin-top: 20px;
+    }
+    .company-block .text-main {
+    padding: 39px 0;
+    padding-bottom: 10px;
 }
-
+.company-block__name {
+    font-size: 14px;
+    padding: 4px 16px;
+        line-height: 26px;
+}
+.company-block__descr {
+    font-size: 9px;
+    line-height: 15px;
+    padding: 6px 16px;
+}
+.company-block__signature img {
+    max-width: 124px;
+}
+.company__image {
+    margin-top: -170px;
+}
+.company__image img {
+    max-width: 167px;
+}
+.company-block__bottom {
+    margin-top: 40px;
+}
+.company__wrap {
+    padding-bottom: 30px;
+}
+}
 /*new adaptive*/
 /*new adaptive*/
 /*new adaptive*/
@@ -1548,7 +1637,7 @@ display: none;
     font-size: 13px;
 }
 .wrapper {
-    padding-top: 65px;
+    padding-top: 72px;
 }
 }
 
