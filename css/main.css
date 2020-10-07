@@ -1,6 +1,6 @@
 *::-webkit-input-placeholder {
 	color: #000;
-	opacity: 1;
+	opacity: 1; 
 }
 *:-moz-placeholder {
 	color: #000;
@@ -2750,4 +2750,8 @@ top: 77px;
 }
 .row_items-advantage .item-advantage {
 	margin-top: 55px;
+}
+
+.company__image {
+	right: -78px;
 }

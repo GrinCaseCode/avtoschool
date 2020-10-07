@@ -100,6 +100,9 @@
     .company-block__signature img {
     max-width: 230px;
 }
+.company__image {
+    right: -137px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -735,6 +738,9 @@
     }
     .company {
         padding-bottom: 40px;
+    }
+    .company__image {
+        right: 21px;
     }
 }
 
